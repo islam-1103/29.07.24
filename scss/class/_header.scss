@@ -1,0 +1,18 @@
+.header {
+    &__primary {
+        @include text(16px, 700, 26px);
+        color: $text-white;
+        background-color: $bg-blue;
+        border-radius: 10px;
+        padding: 12px 46px;
+        border: none;
+        cursor: pointer;
+        transition: 0.3;
+        box-shadow: $buttun-primary-shadow;
+
+        &:hover {
+            background-color: $bg-white;
+            color: $text-blue;
+        }
+    }
+}
