@@ -128,15 +128,4 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-}
-
-.header__phone {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  border-radius: 10px;
-  cursor: pointer;
-  border: none;
-  background-color: #fff;
 }/*# sourceMappingURL=style.css.map */
