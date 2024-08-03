@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./scss/style.css">
 </head>
 
@@ -14,19 +17,51 @@
 
     <header class="header">
         <div class="container">
-            <div class="header__row">
-                <div class="header__logo logo">
-                    <a class="logo-link" href="./index.html">
-                        <img src="./image/MANVER SVG 1.svg" alt="logo">
-                    </a>
+            <div class="header__top">
+                <div class="header-top__left">
+                    <img src="./image/mini-map.svg" alt="mini">
+                    <span>Санкт-Петербург</span>
+                    <img src="./image/Vector.svg" alt="vector">
+                    <ul class="header-top__list">
+                        <li><a class="header__link" href="#">Официальный сайт производителя</a></li>
+                    </ul>
+
                 </div>
-                <div class="number">
-                    <h3 class="title">+7 (981) 120-11-17</h3>
-                    <img src="./image/clock.svg" alt="time">
-                    <h4 class="title">08:00 — 18:00, ежедневно</h4>
+                <div class="header-top__right">
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a class="nav__link" href="#">О нас</a> <img src="./image/Vector.svg"
+                                    alt="vector"></li>
+                            <li class="nav__item"><a class="nav__link" href="#">Покупателям</a> <img
+                                    src="./image/Vector.svg" alt="vector"> </li>
+                            <li class="nav__item"><a class="nav__link" href="#">Сотрудничество</a> <img
+                                    src="./image/Vector.svg" alt="vector"> </li>
+                        </ul>
+                    </nav>
+                    <div class="header__email">
+                        <a href="#">islam@gmail.com</a>
+                    </div>
                 </div>
-                <div class="header__actions actions">
-                    <button class="button__primary">Перезвоните мне</button>
+
+
+
+            </div>
+        </div>
+        <div class="header__bottom">
+            <div class="container">
+                <div class="header__content">
+                    <div class="header__logo">
+                        <img src="./image/MANVER.svg" alt="logo">
+                    </div>
+
+                    <div class="header__number">
+                        <div class="header__row">
+                            <h4 class="header__title">+7 (981) 120-11-17</h4>
+                            <h5 class="header__subtitle"><img src="./image/clock.svg" alt="clock"> 08:00 — 18:00,
+                                ежедневно</h5>
+                        </div>
+                        <button class="header__button">Перезвоните мне</button>
+                    </div>
                 </div>
             </div>
         </div>
