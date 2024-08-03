@@ -1,0 +1,35 @@
+.section {
+        
+    &__row {
+        margin: 35px;
+        border-radius: 7px;
+        background-color: #22423C;
+        width: 1300px;
+        height: 350px;
+    }
+
+    &__title {
+        @include text(42px, 500, 48px);
+        width: 600px;
+        padding: 40px 0 0 80px;
+       color: #FFFFFF;
+    }
+
+    &__description {
+        @include text(17px, 400, 22px);
+        width: 430px;
+        color: #FFFFFF;
+        margin: 25px 0 0 85px;
+    }
+
+    &__button {
+        @include text(15px, 700, 15px);
+        margin: 40px 0 0 85px;
+        background-color: #ECAB0C;
+        height: 54px;
+        width: 250px;
+        border-radius: 30px;
+        border: 0;
+        color: #FFFFFF;
+    }
+}
